@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="home" class="section">
+            <h1>Welcome to Our Website</h1>
+            <p>This is a responsive webpage using Flexbox and Grid.</p>
+        </section>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We provide high-quality services to our clients.</p>
+        </section>
+        <section id="services" class="section grid-container">
+            <div class="grid-item">Service 1</div>
+            <div class="grid-item">Service 2</div>
+            <div class="grid-item">Service 3</div>
+            <div class="grid-item">Service 4</div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: info@example.com</p>
+        </section>
+    </main>
+
+    <!-- Animation Section -->
+    <section id="animation" class="section">
+        <h2>Trigger Animation</h2>
+        <button id="triggerAnimation">Click to Animate</button>
+        <div id="animatedElement" class="animated-box">Watch me animate!</div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">↑ Back to Top</button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Responsive Webpage. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Linking the external JavaScript file -->
+</body>
+</html>
